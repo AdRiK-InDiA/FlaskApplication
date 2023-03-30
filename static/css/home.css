@@ -1,0 +1,139 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-text {
+  top: 197px;
+  left: 392px;
+  position: absolute;
+}
+.home-textinput {
+  top: 184px;
+  left: 488px;
+  position: absolute;
+  align-self: center;
+  padding-top: var(--dl-space-space-unit);
+}
+.home-textinput1 {
+  top: 257px;
+  left: 484px;
+  position: absolute;
+}
+.home-text3 {
+  top: 270px;
+  left: 395px;
+  position: absolute;
+}
+.home-text4 {
+  top: 330px;
+  left: 317px;
+  position: absolute;
+}
+.home-select {
+  top: 328px;
+  left: 499px;
+  position: absolute;
+}
+.home-textinput2 {
+  top: 385px;
+  left: 497px;
+  position: absolute;
+}
+.home-text5 {
+  top: 398px;
+  left: 332px;
+  position: absolute;
+}
+.home-button {
+  top: 459px;
+  left: 528px;
+  position: absolute;
+  background-color: #0de8f4;
+}
+@media(max-width: 767px) {
+  .home-container {
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+  }
+  .home-text {
+    top: 105px;
+    left: 118px;
+    position: absolute;
+  }
+  .home-textinput {
+    top: 96px;
+    left: 222px;
+    width: 136px;
+    position: absolute;
+    padding-top: var(--dl-space-space-halfunit);
+    margin-right: 0px;
+  }
+  .home-textinput1 {
+    top: 226px;
+    left: 228px;
+    width: 126px;
+    position: absolute;
+  }
+  .home-text3 {
+    top: 241px;
+    left: 113px;
+    position: absolute;
+  }
+  .home-text4 {
+    top: 176px;
+    left: 48px;
+    position: absolute;
+  }
+  .home-select {
+    top: 170px;
+    left: 225px;
+    width: 128px;
+    height: 31px;
+    position: absolute;
+    border-color: var(--dl-color-gray-black);
+    border-width: 2px;
+  }
+  .home-textinput2 {
+    top: 291px;
+    left: 228px;
+    width: 123px;
+    position: absolute;
+    margin-right: 0px;
+  }
+  .home-text5 {
+    top: 301px;
+    left: 78px;
+    position: absolute;
+  }
+  .home-button {
+    top: 357px;
+    left: 174px;
+    width: 110px;
+    opacity: 0.9;
+    position: absolute;
+    font-size: 18px;
+    margin-left: var(--dl-space-space-halfunit);
+    border-width: 2px;
+    margin-right: 10px;
+    padding-right: 0px;
+    background-color: #1dc9ec;
+  }
+}
+@media(max-width: 479px) {
+  .home-textinput {
+    width: 257px;
+    height: 0px;
+  }
+  .home-text6 {
+    top: 45px;
+    left: 55px;
+    width: 408px;
+    height: 64px;
+    position: absolute;
+  }
+}

@@ -1,0 +1,38 @@
+{% block head %}
+        <title>
+            INSURANCE PREDICTOR
+        </title>
+    </head>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1{
+            background-color: blue;
+            color: aliceblue;
+        }
+    </style>
+{% endblock %}
+{% block body %}
+        <form action="/predict" method="POST">
+            <center>
+                <h1>INSURANCE PREDICTOR</h1>
+            <b>Age : </b>
+            <input type="text" placeholder="Enter Age" id="age" name="age"><br><br>
+            <b>BMI: </b>
+            <input type="text" placeholder="Enter BMI" id="bmi" name="bmi"><br><br>
+            <b>Smoker: </b>
+            <select id="smoke" name="smoke">
+                <option value="1">Smoker</option>
+                <option value="0">Non Smoker</option>
+              </select>
+              <br><br>
+              <b>No.of Children</b>
+              <input
+              type="text"
+              id="child"
+              placeholder="No.of Children " name="child"><br><br>
+              <input type="submit"  value="PREDICT">
+        </center>
+        </form>
+    {% endblock %}
